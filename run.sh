@@ -5,7 +5,7 @@ if [ -d $HOME/.aa-setup-checker ]; then
 fi
 
 mkdir $HOME/.aa-setup-checker
-git clone -q https://github.com/appacademy/aa-setup-checker.git ~/.aa-setup-checker
+git clone -q https://github.com/haoxugt/aa-setup-checker.git ~/.aa-setup-checker
 
 cd ~/.aa-setup-checker
 ./check.sh
